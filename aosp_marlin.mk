@@ -29,7 +29,7 @@ PRODUCT_DEVICE := marlin
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Pixel XL
 PRODUCT_MANUFACTURER := Google
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_COPY_FILES += device/google/marlin/backup.xml:system/etc/sysconfig/backup.xml
 
